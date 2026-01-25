@@ -1,1 +1,29 @@
 @import 'tailwindcss';
+
+html { scroll-behavior: smooth; }
+body { font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif; }
+
+@theme {
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BONACUP THEME — Edit these to change colors across the app.
+
+   Use as Tailwind classes: bg-main, text-ivory, text-ink, text-ink-muted,
+   text-ink-light, text-on-dark, bg-gold, border-main, etc.
+   ═══════════════════════════════════════════════════════════════════════════ */
+@theme {
+  /* Main brand colors */
+  --color-main: #242E25;        /* Green Shade — primary brand, headers, dark sections */
+  --color-ivory: #F9F2E7;       /* Ivory Shade — light backgrounds, cards */
+  --color-gold: #F6D8AD;        /* Gold Shade — accents, highlights, CTAs */
+
+  /* Dark text (body, headings on light bg) */
+  --color-ink: #1a1d1a;         /* Primary text */
+  --color-ink-muted: #5c6559;   /* Secondary / muted text */
+  --color-ink-light: #8a9085;   /* Captions, hints */
+
+  /* Text on dark backgrounds (e.g. on main green) */
+  --color-on-dark: #F9F2E7;     /* Same as ivory — readable on main */
+}
