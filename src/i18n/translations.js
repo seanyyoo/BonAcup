@@ -151,9 +151,9 @@ export const translations = {
       copyright: '© {year} {name}. 저작권 법에 따라 모든 권리를 보유합니다.',
     },
     hours: [
-      { days: '월 – 금', time: '오전 9:00 – 오후 6:00' },
-      { days: '토', time: '오전 9:00 – 오후 2:00' },
-      { days: '일', time: '휴업' },
+      { days: '월요일 – 금요일', time: '9:00 AM – 6:00 PM' },
+      { days: '토요일', time: '9:00 AM – 2:00 PM' },
+      { days: '일요일', time: '휴업' },
     ],
     aria: {
       toggleMenu: '메뉴 열기/닫기',

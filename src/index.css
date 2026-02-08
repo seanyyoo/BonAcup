@@ -1,7 +1,38 @@
 @import 'tailwindcss';
 
-html { scroll-behavior: smooth; }
-body { font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif; }
+html { 
+  scroll-behavior: smooth;
+}
+
+body { 
+  font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Subtle fade-in animation for sections */
+section {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Gentle scale animation for hero image */
+@keyframes scale {
+  0%, 100% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
 
 @theme {
   --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;

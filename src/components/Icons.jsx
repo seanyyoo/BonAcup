@@ -1,10 +1,10 @@
 /** Shared SVG icons for Yelp, Email, Phone. */
 
-/** Yelp logo (based on Simple Icons, MIT). Use with a link to Yelp. */
+/** Yelp logo (simplified star burst design). Use with a link to Yelp. */
 export function YelpIcon({ className = 'w-6 h-6' }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-      <path d="M20.16 12.594l-4.995 1.433c-.96.276-1.74-.8-1.176-1.63l2.905-4.308a1.072 1.072 0 0 0-.12-1.345l-1.018-1.018a1.073 1.073 0 0 0-1.342-.12L9.697 9.382a.975.975 0 0 1-1.212-.152 1.019 1.019 0 0 1-.155-1.263l2.905-4.307c.564-.83-.215-1.907-1.175-1.632L3.829 7.736a1.023 1.023 0 0 0-.64 1.357l1.566 3.357a.97.97 0 0 1-.417 1.286 1.02 1.02 0 0 1-1.312-.4L2.16 9.425a1.024 1.024 0 0 0-1.356-.641L.414 9.264a1.023 1.023 0 0 0-.64 1.357l2.232 4.788a2.99 2.99 0 0 0 2.572 1.734h12.422a1.022 1.022 0 0 0 1.02-.946l.52-5.606z" />
+      <path d="M12 2l2.4 7.4h7.6l-6 4.6 2.3 7.4L12 16.8l-6.3 4.6L8 14l-6-4.6h7.6z" />
     </svg>
   )
 }

@@ -19,7 +19,7 @@ export const site = {
   yelpUrl: 'https://www.yelp.com/search?find_desc=acupuncture&find_loc=621+S+Virgil+Ave%2C+Los+Angeles%2C+CA+90005',
 
   heroImage: 'https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=1200&q=80',
-  aboutImage: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80',
+  aboutImage: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=1200&h=800&fit=crop',
   benefitsImage: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80',
   practitionerImage: 'https://images.unsplash.com/photo-1559835884-0e5ef814dfb2?w=600&q=80',
 }
