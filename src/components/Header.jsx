@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
+import { site } from '../config'
 import { useLang } from '../context/LangContext'
 
 const navLinks = [
@@ -37,8 +38,8 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-ivory/95 backdrop-blur-sm border-b border-main/10">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 sm:h-18 items-center justify-between gap-4">
-          <a href="#" className="text-xl font-bold text-main tracking-tight flex-shrink-0">
-            {t('brand.name')}
+          <a href="#" className="flex-shrink-0 flex items-center" aria-label={t('brand.name')}>
+            <img src={site.headerLogo} alt="" className="h-11 sm:h-14 w-auto object-contain" />
           </a>
 
           {/* Desktop nav */}

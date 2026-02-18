@@ -21,6 +21,8 @@ export const site = {
 
   yelpUrl: 'https://yelp.to/lhJSBesLEO',
 
+  headerLogo: '/images/unnamed-Photoroom.png',
+
   heroImage: '/images/11.png',
   aboutImage: '/images/3.png',
   practitionerLogo: '/images/8.jpeg',
