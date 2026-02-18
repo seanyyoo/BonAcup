@@ -47,14 +47,30 @@ section {
 @theme {
   /* Main brand colors */
   --color-main: #242E25;        /* Green Shade — primary brand, headers, dark sections */
-  --color-ivory: #F9F2E7;       /* Ivory Shade — light backgrounds, cards */
-  --color-gold: #F6D8AD;        /* Gold Shade — accents, highlights, CTAs */
+  --color-ivory: #F9F2E7;      /* Ivory Shade — light backgrounds, cards */
+  --color-gold: #F6D8AD;       /* Gold Shade — accents, highlights, CTAs */
 
   /* Dark text (body, headings on light bg) */
-  --color-ink: #1a1d1a;         /* Primary text */
-  --color-ink-muted: #5c6559;   /* Secondary / muted text */
-  --color-ink-light: #8a9085;   /* Captions, hints */
+  --color-ink: #1a1d1a;        /* Primary text */
+  --color-ink-muted: #5c6559;  /* Secondary / muted text */
+  --color-ink-light: #8a9085;  /* Captions, hints */
 
   /* Text on dark backgrounds (e.g. on main green) */
   --color-on-dark: #F9F2E7;     /* Same as ivory — readable on main */
+
+  /* Header logo color (PNG with transparent bg — mask fills with this) */
+  --header-logo-color: var(--color-main);
+}
+
+/* Header logo: PNG used as mask so color is controlled by --header-logo-color */
+.header-logo-mask {
+  background-color: var(--header-logo-color);
+  mask-image: var(--header-logo-mask-image);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: var(--header-logo-mask-image);
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
 }

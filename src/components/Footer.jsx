@@ -12,9 +12,9 @@ export function Footer() {
     <footer className="bg-main text-on-dark py-10">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
-          <div>
-            <p className="font-bold text-lg">{t('brand.name')}</p>
-            <p className="text-on-dark/80 text-sm mt-1">{site.fullAddress}</p>
+          <div className="text-left">
+            <img src={site.headerLogo} alt="" className="h-14 sm:h-16 w-auto object-contain object-left brightness-0 invert opacity-90" aria-hidden />
+            <p className="text-on-dark/80 text-sm mt-2">{site.fullAddress}</p>
             <p className="text-on-dark/80 text-sm">{site.phone}</p>
           </div>
           <div className="flex gap-4">

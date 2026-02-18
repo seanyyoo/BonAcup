@@ -39,7 +39,7 @@ export function Header() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 sm:h-18 items-center justify-between gap-4">
           <a href="#" className="flex-shrink-0 flex items-center" aria-label={t('brand.name')}>
-            <img src={site.headerLogo} alt="" className="h-11 sm:h-14 w-auto object-contain" />
+            <img src={site.headerLogo} alt="" className="h-12 sm:h-16 w-auto object-contain" />
           </a>
 
           {/* Desktop nav */}

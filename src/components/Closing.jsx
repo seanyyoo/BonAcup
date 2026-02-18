@@ -1,9 +1,9 @@
+import { site } from '../config'
 import { useLang } from '../context/LangContext'
 
 export function Closing() {
   const { t } = useLang()
   const line1 = t('closing.line1')
-  const line2 = t('closing.line2')
   const cta = t('closing.cta')
   return (
     <section className="relative py-20 sm:py-28 bg-gradient-to-br from-main via-main/95 to-main/90 text-on-dark border-t-4 border-gold overflow-hidden">
@@ -15,8 +15,8 @@ export function Closing() {
         <div className="inline-block mb-6 px-6 py-2 bg-gold/20 backdrop-blur-sm rounded-full border border-gold/40">
           <span className="text-gold text-sm font-semibold tracking-wide">✦ Ready to Begin? ✦</span>
         </div>
-        <p className="text-3xl sm:text-4xl font-bold leading-tight">{line1}</p>
-        <p className="mt-6 text-xl sm:text-2xl text-on-dark/90 leading-relaxed">{line2}</p>
+        <img src={site.headerLogo} alt="" className="h-16 sm:h-20 w-auto object-contain mx-auto brightness-0 invert opacity-90" aria-hidden />
+        <p className="mt-6 text-3xl sm:text-4xl font-bold leading-tight">{line1}</p>
         <a
           href="#contact"
           className="group mt-10 inline-flex items-center px-10 py-5 bg-gold text-main font-bold text-lg rounded-xl hover:bg-gold/90 hover:scale-105 transition-all shadow-2xl hover:shadow-3xl"

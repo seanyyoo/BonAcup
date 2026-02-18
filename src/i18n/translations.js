@@ -93,7 +93,7 @@ export const translations = {
     },
     closing: {
       line1: '당신의 몸은 이미 회복할 준비가 되어 있습니다.',
-      line2: '本 본 한의원이 그 여정을 함께 하겠습니다.',
+      line2Rest: '이 그 여정을 함께 하겠습니다.',
       cta: '예약 상담하기',
     },
     testimonials: {
@@ -251,7 +251,7 @@ export const translations = {
     },
     closing: {
       line1: 'Your body is already ready to heal.',
-      line2: 'Bon Acupuncture will walk that path with you.',
+      line2Rest: 'will walk that path with you.',
       cta: 'Book a consultation',
     },
     testimonials: {
@@ -409,7 +409,7 @@ export const translations = {
     },
     closing: {
       line1: 'Su cuerpo ya está listo para recuperarse.',
-      line2: 'Bon Acupuncture le acompañará en ese camino.',
+      line2Rest: 'le acompañará en ese camino.',
       cta: 'Reservar consulta',
     },
     testimonials: {
