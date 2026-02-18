@@ -19,7 +19,7 @@ export const site = {
   phoneTel: '+12133733434',
   email: 'info@bonacup.com',
 
-  yelpUrl: 'https://www.yelp.com/search?find_desc=acupuncture&find_loc=2120+W+8th+St%2C+Los+Angeles%2C+CA+90057',
+  yelpUrl: 'https://yelp.to/lhJSBesLEO',
 
   heroImage: '/images/11.png',
   aboutImage: '/images/3.png',
