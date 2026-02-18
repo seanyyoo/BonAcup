@@ -1,6 +1,10 @@
 /**
  * 번역 — 모든 문구를 여기서 수정하세요.
- * 한국어(기본), English, Español.
+ * 한국어(ko, 기본), English(en), Español(es).
+ *
+ * ⚠️ WORKFLOW: When you change any Korean (ko) text, update the same key
+ * in English (en) and Spanish (es) so all three languages stay in sync.
+ * Keys are shared (e.g. hero.headline, about.practitioner.bio).
  */
 
 export const translations = {
@@ -29,9 +33,9 @@ export const translations = {
       philosophyBody: '本 본 한의원은 단순한 증상 완화가 아닌 근본 원인 개선을 목표로 합니다.',
       philosophyBody2: '현대적인 진단 방식과 전통 한의학을 결합하여 통증, 만성 질환, 스트레스성 질환, 체형 불균형까지 개인별 맞춤 치료 계획을 수립합니다.',
       practitioner: {
-        name: 'Dr. Sarah Chen',
+        name: 'Dr. Alex Kim',
         title: '한의사 & 한방약 전문의',
-        bio: '15년 이상 한의학 경력을 바탕으로, 침술·부항·한방약을 통해 통증, 스트레스, 만성 질환 완화를 돕고 있습니다. 몸과 마음을 함께 보는 holistic 접근에 힘쓰고 있습니다.',
+        bio: '10년 이상 한의학 경력을 바탕으로, 침술·부항·한방약을 통해 통증, 스트레스, 만성 질환 완화를 돕고 있습니다. 몸과 마음을 함께 보는 holistic 접근에 힘쓰고 있습니다.',
       },
       aboutImageAlt: '한방 재료와 전통 한의학',
     },
@@ -65,14 +69,13 @@ export const translations = {
       title: '주요 진료 분야',
       intro: '침술과 한의학은 다양한 증상에 도움이 됩니다. 주요 진료 분야는 다음과 같습니다.',
       list: [
-        '목 / 허리 / 어깨 통증',
-        '좌골신경통 / 디스크 / 관절 통증',
-        '스포츠 손상 / 근육 통증',
-        '만성 피로 / 스트레스 / 불면',
-        '소화기 질환',
-        '여성 질환',
-        '교통사고 후유증',
-        '체질 맞춤 한약 처방',
+        '침술',
+        '전통 한방약',
+        '뜸',
+        '통증 관리',
+        '교통사고 / 업무 손상 치료',
+        '전기 자극 치료',
+        '온열 척추 치료',
       ],
       notSure: '침술이 맞는지 잘 모르시겠다면, 전화로 상담해 드립니다.',
       expectTitle: '방문 시 참고',
@@ -98,7 +101,7 @@ export const translations = {
       subtitle: '함께한 분들의 생생한 이야기입니다.',
       items: [
         {
-          quote: 'Dr. Chen과 팀분들이 차분하고 따뜻한 분위기를 만들어 주셨어요. 몇 번 받고 나서 몇 년간의 다른 치료보다 등 통증이 훨씬 나아졌습니다.',
+          quote: 'Dr. Kim과 팀분들이 차분하고 따뜻한 분위기를 만들어 주셨어요. 몇 번 받고 나서 몇 년간의 다른 치료보다 등 통증이 훨씬 나아졌습니다.',
           author: 'Michael R.',
           location: 'Los Angeles',
         },
@@ -188,9 +191,9 @@ export const translations = {
       philosophyBody: 'Bon Acupuncture aims to address the root cause, not only ease symptoms.',
       philosophyBody2: 'By combining modern diagnostic methods with traditional Korean medicine, we create individualized treatment plans for pain, chronic conditions, stress-related disorders, and postural imbalance.',
       practitioner: {
-        name: 'Dr. Sarah Chen',
+        name: 'Dr. Alex Kim',
         title: 'Licensed Acupuncturist & Herbalist',
-        bio: 'With over 15 years of experience in Traditional Chinese Medicine, Dr. Chen helps patients find relief from pain, stress, and chronic conditions through acupuncture, cupping, and herbal medicine. She is dedicated to a whole-person approach to wellness.',
+        bio: 'With over 10 years of experience in Traditional Chinese Medicine, Dr. Kim helps patients find relief from pain, stress, and chronic conditions through acupuncture, cupping, and herbal medicine. He is dedicated to a whole-person approach to wellness.',
       },
       aboutImageAlt: 'Herbs and traditional Chinese medicine',
     },
@@ -224,14 +227,13 @@ export const translations = {
       title: 'Main treatment areas',
       intro: 'Acupuncture and Korean medicine can support a wide range of conditions. Our main areas include:',
       list: [
-        'Neck / back / shoulder pain',
-        'Sciatica / disc / joint pain',
-        'Sports injuries / muscle pain',
-        'Chronic fatigue / stress / insomnia',
-        'Digestive disorders',
-        'Women’s health',
-        'Post–motor vehicle accident care',
-        'Constitution-based herbal prescriptions',
+        'Acupuncture',
+        'Traditional Herbal Medicine',
+        'Moxibustion',
+        'Pain Management',
+        'Auto Accident / Work Injury Care',
+        'Electrical Stimulation Therapy',
+        'Thermal Spinal Therapy',
       ],
       notSure: 'Not sure if acupuncture is right for you? Give us a call—we’re happy to discuss your concerns.',
       expectTitle: 'What to expect',
@@ -257,7 +259,7 @@ export const translations = {
       subtitle: 'Real feedback from people we’ve had the privilege to work with.',
       items: [
         {
-          quote: 'Dr. Chen and her team created a calm, welcoming space. After a few sessions, my chronic back pain improved more than years of other treatments.',
+          quote: 'Dr. Kim and his team created a calm, welcoming space. After a few sessions, my chronic back pain improved more than years of other treatments.',
           author: 'Michael R.',
           location: 'Los Angeles',
         },
@@ -347,9 +349,9 @@ export const translations = {
       philosophyBody: 'Bon Acupuncture busca mejorar la causa de fondo, no solo aliviar los síntomas.',
       philosophyBody2: 'Combinando métodos diagnósticos modernos y medicina tradicional coreana, elaboramos planes personalizados para dolor, afecciones crónicas, trastornos por estrés y desequilibrios posturales.',
       practitioner: {
-        name: 'Dra. Sarah Chen',
+        name: 'Dr. Alex Kim',
         title: 'Acupunturista y herbolaria licenciada',
-        bio: 'Con más de 15 años de experiencia en Medicina Tradicional China, la Dra. Chen ayuda a sus pacientes a aliviar el dolor, el estrés y afecciones crónicas mediante acupuntura, ventosaterapia y fitoterapia. Se dedica a un enfoque integral del bienestar.',
+        bio: 'Con más de 10 años de experiencia en Medicina Tradicional China, el Dr. Kim ayuda a sus pacientes a aliviar el dolor, el estrés y afecciones crónicas mediante acupuntura, ventosaterapia y fitoterapia. Se dedica a un enfoque integral del bienestar.',
       },
       aboutImageAlt: 'Hierbas y medicina tradicional china',
     },
@@ -383,14 +385,13 @@ export const translations = {
       title: 'Principales áreas de tratamiento',
       intro: 'La acupuntura y la medicina coreana pueden ayudar en muchas afecciones. Principales áreas:',
       list: [
-        'Dolor de cuello / espalda / hombros',
-        'Ciática / discopatía / dolor articular',
-        'Lesiones deportivas / dolor muscular',
-        'Fatiga crónica / estrés / insomnio',
-        'Trastornos digestivos',
-        'Salud de la mujer',
-        'Secuelas de accidentes de tráfico',
-        'Prescripción herbal según constitución',
+        'Acupuntura',
+        'Medicina herbal tradicional',
+        'Moxibustión',
+        'Manejo del dolor',
+        'Accidentes de auto / lesiones laborales',
+        'Terapia de estimulación eléctrica',
+        'Terapia térmica espinal',
       ],
       notSure: '¿No sabe si la acupuntura le conviene? Llámenos y le orientamos.',
       expectTitle: 'Qué esperar',
@@ -416,7 +417,7 @@ export const translations = {
       subtitle: 'Comentarios reales de personas con las que hemos tenido el privilegio de trabajar.',
       items: [
         {
-          quote: 'La Dra. Chen y su equipo crean un ambiente tranquilo y acogedor. Tras unas sesiones, mi dolor de espalda crónico mejoró más que con años de otros tratamientos.',
+          quote: 'El Dr. Kim y su equipo crean un ambiente tranquilo y acogedor. Tras unas sesiones, mi dolor de espalda crónico mejoró más que con años de otros tratamientos.',
           author: 'Michael R.',
           location: 'Los Ángeles',
         },

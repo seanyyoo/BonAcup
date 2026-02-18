@@ -4,7 +4,6 @@ import { About } from './components/About'
 import { Services } from './components/Services'
 import { Benefits } from './components/Benefits'
 import { Recommended } from './components/Recommended'
-import { Testimonials } from './components/Testimonials'
 import { FAQ } from './components/FAQ'
 import { Closing } from './components/Closing'
 import { Contact } from './components/Contact'
@@ -20,7 +19,6 @@ function App() {
         <Services />
         <Benefits />
         <Recommended />
-        <Testimonials />
         <FAQ />
         <Closing />
         <Contact />

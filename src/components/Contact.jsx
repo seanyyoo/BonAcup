@@ -2,8 +2,9 @@ import { site } from '../config'
 import { useLang } from '../context/LangContext'
 import { YelpIcon, EmailIcon, PhoneIcon } from './Icons'
 
+// 2120 W 8th St, LA 90057 — bbox and marker so pin shows at exact location
 const MAP_EMBED =
-  'https://www.openstreetmap.org/export/embed.html?bbox=-118.294%2C34.055%2C-118.276%2C34.072&layer=mapnik'
+  'https://www.openstreetmap.org/export/embed.html?bbox=-118.290%2C34.049%2C-118.278%2C34.057&layer=mapnik&marker=34.053%2C-118.284'
 const GOOGLE_MAPS_URL = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(site.fullAddress)}`
 
 export function Contact() {

@@ -67,27 +67,30 @@ export function About() {
             </div>
           </div>
 
-          {/* Practitioner section - minimal clean design */}
-          <div className="max-w-3xl mx-auto">
-            <div className="relative">
-              {/* Subtle background */}
-              <div className="absolute inset-0 bg-gradient-to-r from-main/5 to-transparent rounded-2xl" aria-hidden />
-              
-              <div className="relative flex flex-col sm:flex-row items-center sm:items-start gap-6 p-8">
-                <div className="relative">
-                  <div className="absolute -inset-1 bg-gradient-to-br from-gold to-gold/50 rounded-full blur-sm" aria-hidden />
-                  <img
-                    src={site.practitionerImage}
-                    alt={practitioner.name}
-                    className="relative w-24 h-24 rounded-full object-cover border-4 border-white shadow-lg"
-                  />
-                </div>
-                <div className="flex-1 text-center sm:text-left space-y-2">
+          {/* Practitioner section - text left, image right (same layout as block above) */}
+          <div className="relative">
+            <div className="grid lg:grid-cols-5 gap-8 items-center">
+              {/* Left side - doctor intro text (below image on mobile) */}
+              <div className="lg:col-span-2 space-y-6 order-2 lg:order-1">
+                <div>
                   <p className="font-bold text-main text-xl">{practitioner.name}</p>
                   <p className="text-gold text-sm font-semibold uppercase tracking-wide">{practitioner.title}</p>
                   <p className="text-ink-muted leading-relaxed pt-2">
                     {practitioner.bio}
                   </p>
+                </div>
+              </div>
+              {/* Right side - image (on top on mobile) */}
+              <div className="lg:col-span-3 order-1 lg:order-2">
+                <div className="relative group">
+                  <div className="absolute -inset-1 bg-gradient-to-br from-gold/30 to-main/20 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity" aria-hidden />
+                  <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
+                    <img
+                      src={site.practitionerLogo}
+                      alt=""
+                      className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-500"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
