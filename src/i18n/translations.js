@@ -55,7 +55,7 @@ export const translations = {
         },
         {
           title: '뜸',
-          description: '쑥을 이용한 온열을 경혈에 가해 기운을 보하고 만성 증상을 다스립니다.',
+          description: '쑥뜸이 아닌 무연전자뜸을 사용해 연기와 냄새 없이 경혈에 온열을 가해 기운을 보하고 만성 증상을 다스립니다.',
           icon: 'moxa',
         },
         {
@@ -154,8 +154,8 @@ export const translations = {
       copyright: '© {year} {name}. 저작권 법에 따라 모든 권리를 보유합니다.',
     },
     hours: [
-      { days: '월요일 – 금요일', time: '9:00 AM – 6:00 PM' },
-      { days: '토요일', time: '9:00 AM – 2:00 PM' },
+      { days: '월요일 – 금요일', time: '10:00 AM – 5:00 PM' },
+      { days: '토요일', time: '9:00 AM – 3:00 PM' },
       { days: '일요일', time: '휴업' },
     ],
     aria: {
@@ -213,7 +213,7 @@ export const translations = {
         },
         {
           title: 'Moxibustion',
-          description: 'Warm, gentle heat from mugwort is applied to acupuncture points to boost energy and support chronic conditions.',
+          description: 'We use smokeless electronic moxibustion (no smoke or odor) to apply gentle heat to acupuncture points, boosting energy and supporting chronic conditions.',
           icon: 'moxa',
         },
         {
@@ -312,8 +312,8 @@ export const translations = {
       copyright: '© {year} {name}. All rights reserved.',
     },
     hours: [
-      { days: 'Mon – Fri', time: '9:00 AM – 6:00 PM' },
-      { days: 'Sat', time: '9:00 AM – 2:00 PM' },
+      { days: 'Mon – Fri', time: '10:00 AM – 5:00 PM' },
+      { days: 'Sat', time: '9:00 AM – 3:00 PM' },
       { days: 'Sun', time: 'Closed' },
     ],
     aria: {
@@ -371,7 +371,7 @@ export const translations = {
         },
         {
           title: 'Moxibustión',
-          description: 'Se aplica calor suave de artemisa en puntos de acupuntura para estimular la energía y tratar afecciones crónicas.',
+          description: 'Usamos moxibustión electrónica sin humo ni olor para aplicar calor suave en puntos de acupuntura, estimulando la energía y tratando afecciones crónicas.',
           icon: 'moxa',
         },
         {
@@ -470,8 +470,8 @@ export const translations = {
       copyright: '© {year} {name}. Todos los derechos reservados.',
     },
     hours: [
-      { days: 'Lun – Vie', time: '9:00 – 18:00' },
-      { days: 'Sáb', time: '9:00 – 14:00' },
+      { days: 'Lun – Vie', time: '10:00 – 17:00' },
+      { days: 'Sáb', time: '9:00 – 15:00' },
       { days: 'Dom', time: 'Cerrado' },
     ],
     aria: {

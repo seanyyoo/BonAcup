@@ -17,7 +17,7 @@ export const site = {
 
   phone: '(213) 373-3434',
   phoneTel: '+12133733434',
-  email: 'info@bonacup.com',
+  email: 'Bonoriginacu@gmail.com',
 
   yelpUrl: 'https://yelp.to/lhJSBesLEO',
 
