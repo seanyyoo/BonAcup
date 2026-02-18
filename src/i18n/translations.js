@@ -33,7 +33,7 @@ export const translations = {
       philosophyBody: '本 본 한의원은 단순한 증상 완화가 아닌 근본 원인 개선을 목표로 합니다.',
       philosophyBody2: '현대적인 진단 방식과 전통 한의학을 결합하여 통증, 만성 질환, 스트레스성 질환, 체형 불균형까지 개인별 맞춤 치료 계획을 수립합니다.',
       practitioner: {
-        name: 'Dr. Alex Kim',
+        name: 'Dr. Alex Lee',
         title: '한의사 & 한방약 전문의',
         bio: '10년 이상 한의학 경력을 바탕으로, 침술·부항·한방약을 통해 통증, 스트레스, 만성 질환 완화를 돕고 있습니다. 몸과 마음을 함께 보는 holistic 접근에 힘쓰고 있습니다.',
       },
@@ -101,7 +101,7 @@ export const translations = {
       subtitle: '함께한 분들의 생생한 이야기입니다.',
       items: [
         {
-          quote: 'Dr. Kim과 팀분들이 차분하고 따뜻한 분위기를 만들어 주셨어요. 몇 번 받고 나서 몇 년간의 다른 치료보다 등 통증이 훨씬 나아졌습니다.',
+          quote: 'Dr. Lee와 팀분들이 차분하고 따뜻한 분위기를 만들어 주셨어요. 몇 번 받고 나서 몇 년간의 다른 치료보다 등 통증이 훨씬 나아졌습니다.',
           author: 'Michael R.',
           location: 'Los Angeles',
         },
@@ -191,9 +191,9 @@ export const translations = {
       philosophyBody: 'Bon Acupuncture aims to address the root cause, not only ease symptoms.',
       philosophyBody2: 'By combining modern diagnostic methods with traditional Korean medicine, we create individualized treatment plans for pain, chronic conditions, stress-related disorders, and postural imbalance.',
       practitioner: {
-        name: 'Dr. Alex Kim',
+        name: 'Dr. Alex Lee',
         title: 'Licensed Acupuncturist & Herbalist',
-        bio: 'With over 10 years of experience in Traditional Chinese Medicine, Dr. Kim helps patients find relief from pain, stress, and chronic conditions through acupuncture, cupping, and herbal medicine. He is dedicated to a whole-person approach to wellness.',
+        bio: 'With over 10 years of experience in Traditional Chinese Medicine, Dr. Lee helps patients find relief from pain, stress, and chronic conditions through acupuncture, cupping, and herbal medicine. He is dedicated to a whole-person approach to wellness.',
       },
       aboutImageAlt: 'Herbs and traditional Chinese medicine',
     },
@@ -259,7 +259,7 @@ export const translations = {
       subtitle: 'Real feedback from people we’ve had the privilege to work with.',
       items: [
         {
-          quote: 'Dr. Kim and his team created a calm, welcoming space. After a few sessions, my chronic back pain improved more than years of other treatments.',
+          quote: 'Dr. Lee and his team created a calm, welcoming space. After a few sessions, my chronic back pain improved more than years of other treatments.',
           author: 'Michael R.',
           location: 'Los Angeles',
         },
@@ -349,9 +349,9 @@ export const translations = {
       philosophyBody: 'Bon Acupuncture busca mejorar la causa de fondo, no solo aliviar los síntomas.',
       philosophyBody2: 'Combinando métodos diagnósticos modernos y medicina tradicional coreana, elaboramos planes personalizados para dolor, afecciones crónicas, trastornos por estrés y desequilibrios posturales.',
       practitioner: {
-        name: 'Dr. Alex Kim',
+        name: 'Dr. Alex Lee',
         title: 'Acupunturista y herbolaria licenciada',
-        bio: 'Con más de 10 años de experiencia en Medicina Tradicional China, el Dr. Kim ayuda a sus pacientes a aliviar el dolor, el estrés y afecciones crónicas mediante acupuntura, ventosaterapia y fitoterapia. Se dedica a un enfoque integral del bienestar.',
+        bio: 'Con más de 10 años de experiencia en Medicina Tradicional China, el Dr. Lee ayuda a sus pacientes a aliviar el dolor, el estrés y afecciones crónicas mediante acupuntura, ventosaterapia y fitoterapia. Se dedica a un enfoque integral del bienestar.',
       },
       aboutImageAlt: 'Hierbas y medicina tradicional china',
     },
@@ -417,7 +417,7 @@ export const translations = {
       subtitle: 'Comentarios reales de personas con las que hemos tenido el privilegio de trabajar.',
       items: [
         {
-          quote: 'El Dr. Kim y su equipo crean un ambiente tranquilo y acogedor. Tras unas sesiones, mi dolor de espalda crónico mejoró más que con años de otros tratamientos.',
+          quote: 'El Dr. Lee y su equipo crean un ambiente tranquilo y acogedor. Tras unas sesiones, mi dolor de espalda crónico mejoró más que con años de otros tratamientos.',
           author: 'Michael R.',
           location: 'Los Ángeles',
         },
